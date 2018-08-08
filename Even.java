@@ -15,7 +15,7 @@ class Even
           System.out.println("Even");
          }
         else{
-          System.out.println("Invalid");
+          System.out.println("invalid");
         }
 
 	}
