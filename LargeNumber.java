@@ -8,22 +8,22 @@ class LargeNumber
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		 int n1,n2,n3;
+		 int a,b,c;
        Scanner s=new Scanner(System.in);
        
-        n1=s.nextInt();
+        a=s.nextInt();
     
-        n2=s.nextInt();
+        b=s.nextInt();
 
-        n3=s.nextInt();
+        c=s.nextInt();
 
-        if( n1 >= n2 && n1 >= n3)
-            System.out.println(n1);
+        if( a >= b && a >= c)
+            System.out.println(a);
 
-        else if (n2 >= n1 && n2 >= n3)
-            System.out.println(n2);
+        else if (b >= a && b >= c)
+            System.out.println(b);
 
         else
-            System.out.println(n3);
+            System.out.println(c);
 	}
 }
