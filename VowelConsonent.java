@@ -31,6 +31,6 @@ class VowelConsonent
 		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 		System.out.println("Consonent");
 		else
-		System.out.println("Invalid");		
+		System.out.println("invalid");		
 	}
 }
