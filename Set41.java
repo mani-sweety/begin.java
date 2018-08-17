@@ -28,3 +28,4 @@ class Set41
 		}
 		System.out.println(sum);
 	}
+}
