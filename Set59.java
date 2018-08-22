@@ -14,3 +14,4 @@ class Set59
 		int c=a+b;
 		System.out.println(c);
 	}
+}
